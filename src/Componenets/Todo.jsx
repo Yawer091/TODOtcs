@@ -69,7 +69,7 @@ const Todo = () => {
                 }}
               >
                 <input
-                  className={`px-[110px] py-[10px] ${
+                  className={`px-[120px] py-[10px] ${
                     lrmode === "light"
                       ? "bg-white text-black"
                       : "bg-gray-700 text-white"
