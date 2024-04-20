@@ -51,7 +51,7 @@ const Todo = () => {
         </button>
       </div>
       <div
-        className={`border-red-300  ${
+        className={`border-red-300 font-mono   ${
           lrmode === "light" ? "bg-white" : "bg-gray-800"
         }`}
       >
