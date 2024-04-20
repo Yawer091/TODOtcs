@@ -16,7 +16,7 @@ const Todo = () => {
   const dispatch = useDispatch();
   const itemsLeft = list.filter((item) => !item.completed).length;
   const toggleMode = () => {
-    setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
+    setMode((prev) => (prev === "light" ? "dark" : "light"));
   };
   const handleFilterChange = (type) => {
     setFilter(type);
