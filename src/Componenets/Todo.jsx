@@ -130,7 +130,7 @@ const Todo = () => {
               })}
             </div>
 
-            <div className="flex justify-between m-[10px] py-[10px]">
+            <div className="flex justify-between m-[10px] py-[10px] gap-[14px]">
               <p>{itemsLeft} ITEM LEFT</p>
               <ul className="flex gap-[10px]">
                 <li
